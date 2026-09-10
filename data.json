@@ -1,0 +1,119 @@
+{
+    "header": {
+        "name": "Akash Kumar",
+        "contacts": [
+            {
+                "icon": "faEnvelope",
+                "text": "meakash0102@gmail.com",
+                "url": "mailto:meakash0102@gmail.com"
+            },
+            {
+                "icon": "faMobile",
+                "text": "+(91) 7004508534",
+                "url": "tel:+91-7004508534"
+            },
+            {
+                "icon": "faGithub",
+                "text": "github.com/Im-roy",
+                "url": "https://github.com/Im-roy"
+            },
+            {
+                "icon": "faLinkedin",
+                "text": "linkedin.com/in/akash-kumar",
+                "url": "https://www.linkedin.com/in/akash-kumar-4ab6b1198/"
+            }
+        ]
+    },
+    "experience": [
+        {
+            "company": "Nykaa",
+            "url": "https://nykaa.com/",
+            "date": "Jan. 2025 -- Present",
+            "title": "Senior Software Engineer",
+            "bullets": [
+                "Designed and built a multi-tenant order orchestration platform in Java/Spring Boot processing 500K+ orders/day across India and Middle East markets, coordinating post-order workflows between OMS, warehouse management, and logistics systems through a hybrid synchronous and event-driven architecture with idempotent message handling and retry semantics to preserve correctness under partial failure and duplicate delivery.",
+                "Designed and developed a scalable multi-tenant loyalty platform supporting omnichannel earn and redeem journeys across multiple business domains, applying domain-driven design and reusable microservice abstractions to reduce new business onboarding time-to-market by 80\\%; enforced transactional consistency of point balances under concurrent earn and redeem operations.",
+                "Enhanced the organization's Kafka platform library with standardized retry and dead-letter queue mechanisms and consumer-side idempotency, improving resilience of asynchronous communication across 20+ microservices.",
+                "Led the rollout of standardized observability across 20+ microservices, implementing OpenTelemetry instrumentation, Grafana dashboards, alerting, and custom telemetry to improve production visibility, incident detection, and mean time to detection.",
+                "Orchestrated migration of 15+ backend microservices to a new AWS region, provisioning parallel infrastructure as code, reconfiguring service-to-service dependencies, and validating end-to-end correctness through integration, contract, and smoke tests in CI (Jenkins, GitHub Actions) ahead of a zero-downtime cutover.",
+                "Built an AI-driven voicebot platform handling 5k+ daily support calls, orchestrating real-time bidirectional audio over WebSockets with pluggable STT/TTS providers, barge-in handling, per-session conversation state, and latency-optimized streaming to hold sub-second response times under concurrent load."
+            ]
+        },
+        {
+            "company": "INDMoney",
+            "url": "https://indmoney.com/",
+            "date": "Jun. 2024 -- Dec. 2024",
+            "title": "Software Engineer",
+            "bullets": [
+                "Rebuilt brokerage account onboarding for the INDstocks trading platform, orchestrating account creation across multiple external exchange and custodian systems with compensating actions for partial failures, backed by unit and integration test coverage; reduced onboarding time by 50\\%.",
+                "Designed and developed Go microservices using Kafka, gRPC, and PostgreSQL to support high-throughput financial workflows, inter-service communication, and reliable processing of trade and settlement events.",
+                "Built a dynamic Help Centre for INDstocks with contextual nudges, targeted broadcast banners, and guided issue-resolution flows, improving transaction success rates and reducing inbound support load."
+            ]
+        },
+        {
+            "company": "Hella Infra Market",
+            "url": "https://infra.market/",
+            "date": "Jun. 2022 -- May. 2024",
+            "title": "Software Engineer (SDE 1 $\\rightarrow$ SDE 2)",
+            "bullets": [
+                "Designed and led development of an event-driven Ticket Management System in Java/Spring Boot processing 1k+ tickets/day, streamlining post-sales operations and issue resolution across business functions.",
+                "Architected and developed a centralized ERP platform covering procurement, inventory, supply chain, and finance workflows, modelling domain boundaries to enable operational visibility and process standardization across business units.",
+                "Introduced standardized retry and dead-letter queue mechanisms into the organization's Kafka platform library, improving reliability of asynchronous messaging across 35+ microservices.",
+                "Developed a shared observability library adopted across 35+ microservices, standardizing metrics, traces, and log correlation via New Relic to cut troubleshooting time during production incidents."
+            ]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Indian Institute of Information Technology, Nagpur",
+            "degree": "BTech in Computer Science and Technology",
+            "date": "Jul. 2018 -- May 2022",
+            "grade": "CGPA: 8.31/10"
+        }
+    ],
+    "skills": [
+        {
+            "category": "Languages",
+            "items": "Java (17/21), Go, Python, SQL, Bash, C/C++"
+        },
+        {
+            "category": "Backend \\& Distributed Systems",
+            "items": "Spring Boot, Microservices, Domain-Driven Design (DDD), Event-Driven Architecture, Kafka, REST APIs, gRPC, PostgreSQL, Redis, MongoDB, DynamoDB, Concurrency, Idempotency \\& Transactional Consistency"
+        },
+        {
+            "category": "Testing \\& Delivery",
+            "items": "TDD, JUnit, Testcontainers, Integration \\& Contract Testing, CI/CD, Jenkins, GitHub Actions, Docker, Kubernetes, Infrastructure as Code, Git"
+        },
+        {
+            "category": "Observability \\& Cloud",
+            "items": "OpenTelemetry, Prometheus, Grafana, New Relic, CloudWatch, OpenSearch, AWS (ECS, ECR, Lambda, S3, RDS, SQS), Redshift"
+        },
+        {
+            "category": "AI Engineering",
+            "items": "LLM Tool-Calling, Agentic Workflows, RAG, MCP, LangGraph, AWS Bedrock, Real-Time Voice Orchestration (Pipecat)"
+        }
+    ],
+    "achievements": {
+        "section_title": "Leadership \\& Achievements",
+        "groups": [
+            {
+                "group_title": "Leadership and Mentoring",
+                "bullets": [
+                    "Conducted internal knowledge-sharing sessions on distributed systems, observability, and asynchronous messaging patterns, promoting engineering best practices and a culture of continuous learning across teams.",
+                    "Ranked among the top 5\\% of programmers globally on \\href{https://leetcode.com/u/Im_Roy/}{\\textbf{LeetCode}} with a max Knight rating of 1950."
+                ]
+            }
+        ]
+    },
+    "settings": {
+        "font": "Arial",
+        "font_size": "8pt",
+        "paper": "a4paper",
+        "scale": 0.9,
+        "top_margin": ".4in",
+        "bottom_margin": ".4in",
+        "name_color": "1C033C",
+        "accent_color": "371e77",
+        "highlight_color": "4B28A4"
+    }
+}
